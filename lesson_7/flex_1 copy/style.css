@@ -1,0 +1,49 @@
+.navigation{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  background-color: aqua;
+  flex-flow: row wrap;
+  margin:0;
+}
+
+.navigation a{
+  text-decoration: none;
+  display: block;
+  padding: 1em; 
+  color:white;
+
+  
+}
+
+.navigation a:hover{
+  background-color: red;
+}
+
+@media all and (max-width: 800px) {
+
+  .navigation{
+    justify-content: space-around;
+  }
+}
+
+
+@media all and (max-width: 600px) {
+
+  .navigation{
+    
+    /* justify-content: space-between; */
+    flex-flow: column wrap;
+    /* align-content:center; */
+    padding: 0;
+    
+    
+  }
+  .navigation a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+
+}
