@@ -1,0 +1,18 @@
+
+
+div>p{
+    color:green
+}
+
+
+div div p[type=text]{
+color:rgb(7, 55, 97)
+}
+
+div p{
+
+    color:red
+}
+.a ~ .b {
+    background-color: powderblue;
+  }

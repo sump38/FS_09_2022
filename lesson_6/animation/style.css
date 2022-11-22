@@ -1,0 +1,10 @@
+.num{
+    background-color:aqua;
+    width:200px;
+    height: 200px;
+    padding: 14%;
+}
+
+.num:hover{
+    transform: skew(45deg); 
+}

@@ -1,0 +1,80 @@
+<span class="checkbox-wrapper">
+    <input type="checkbox" id="myCheckbox" />
+    <label for="myCheckbox">Checkbox</label>
+  </span>
+  <span>test</span>
+  
+  <table>
+    <tbody>
+      <tr>
+        <td>one</td>
+        <td>two</td>
+      </tr>
+      <tr>
+        <td colspan="2">one</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <form onsubmit="return false;" id="formId">
+    <fieldset>
+      <legend>Personal Details</legend>
+      <div class="input-wrapper">
+        <label for="firstNameID">First Name: </label>
+        <input
+          type="text"
+          name="firstName"
+          id="firstNameID"
+          placeholder="name here..."
+        />
+        
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Personal Details 2</legend>
+
+      <div class="input-wrapper">
+        <label for="lastNameID">Age: </label>
+        <input
+          type="number"
+          name="lastName"
+          id="lastNameID"
+          placeholder="age"
+          value="22"
+        />
+      </div>
+      <div class="input-wrapper">
+        <label for="favoriteFoodID">Favorite Food:</label>
+        <select id="favoriteFoodID" name="favoriteFood" value="bread">
+          <option value="pizza">Pizza</option>
+          <option value="bread" selected>Bread</option>
+        </select>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Other info</legend>
+      <textarea rows="12" name="otherInfo" placeholder="other info...">
+  This value goes here</textarea
+      >
+    </fieldset>
+    <fieldset>
+      <legend>Radio Buttons - Mutually exclusive</legend>
+      <div class="radio-group">
+        <div class="input-wrapper">
+          <input type="radio" name="radioGroup1" id="firstRadioID" value="1" />
+          <label for="firstRadioID">First Radio</label>
+        </div>
+        <div class="input-wrapper">
+          <input type="radio" name="radioGroup1" id="secondRadioID" value="2" />
+          <label for="secondRadioID">Second Radio</label>
+        </div>
+        <div class="input-wrapper">
+          <input type="radio" name="radioGroup1" id="thirdRadioID" value="3" />
+          <label for="thirdRadioID">Third Radio</label>
+        </div>
+      </div>
+    </fieldset>
+    <br />
+    <button>Send</button>
+  </form>
+  

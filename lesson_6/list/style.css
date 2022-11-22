@@ -1,0 +1,17 @@
+.ul{
+    width: 200px;
+    height: 200px;
+    list-style-type: none;
+}
+
+
+li:nth-child(even){
+    background-color: antiquewhite;
+}
+.inner-list{
+    list-style-type: none;
+    display:none;
+}
+li:hover>.inner-list{
+    display:block;
+}

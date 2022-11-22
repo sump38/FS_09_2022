@@ -1,0 +1,48 @@
+.container{
+    width: 80%;
+    background-color: bisque;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content:  space-around;
+    /* flex-direction: row | row-reverse | column | column-reverse; */
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left | right ... + safe | unsafe; */
+}
+.child{
+    width: 200px;
+    height: 200px; 
+
+}
+.blue{
+    background-color: blue;
+    flex-grow: 4;
+    
+}
+.red{
+    background-color: red;
+    flex-grow: 2;
+    flex-shrink: 3;
+    
+
+}
+.yellow{
+    background-color: yellow;
+    /* flex-grow: 2; */
+     
+}
+.green{
+    background-color: green;
+     
+}
+.purple{
+    background-color: purple;
+     
+}
+.pink{
+    background-color: pink;
+    
+}
+
+.child:hover{
+    transform: rotateZ(45deg);
+}

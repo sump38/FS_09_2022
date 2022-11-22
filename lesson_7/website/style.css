@@ -1,0 +1,139 @@
+body {
+    background: rgb(20%, 20%, 20%, 30%);
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  main {
+    position: relative;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  .flax{
+
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-section {
+    width: 40%;
+    margin: 0 auto;
+    background: rgb(80%, 80%, 70%);
+    box-shadow: 7px 10px 0 1px rgba(0,0,0,.4);
+    border-radius: 2px;
+
+  }
+  
+  header {
+    line-height: 50px;
+    background: rgb(50%, 50%, 70%);
+    border-bottom: 4px solid rgb(30%, 10%, 40%);
+  }
+  
+  header h1 {
+    margin: 0;
+    padding: 0;
+    text-indent: 20px;
+    color: white;
+    font-weight: 300;
+  }
+  
+  
+  main nav {
+    background: rgba(100%, 100%, 100%, .6);
+    width: 40%;
+    border-radius: 0 5px 5px 0;
+    overflow: hidden;
+    /* position: absolute; */
+    /* left: 0;
+    top: 50px; */
+  /*   vertical-align: top; */
+    margin-top: 20px;
+    float:left
+  }
+  
+  nav h3 {
+    background: rgb(50%, 50%, 70%);
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    text-indent: 15px;
+    color: white;
+    font-weight: 300;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    list-style: none;
+    text-indent: 10px;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  
+  nav>ul>li:nth-child(even) {
+    background: rgba(0, 0, 0, .1)
+  }
+  
+  nav li>ul {
+    display:none;
+  }
+  nav li:hover {
+    color: rgb(0%,0%,70%);
+  }
+  nav li:hover>ul {
+    display:block;
+    color:black;
+  }
+  
+  nav li>ul>li {
+    text-indent: 20px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+  main>section {
+    display: inline-block;
+    width: 50%;
+    /* margin-left: 50px; */
+  }
+  
+  article {
+    border-bottom: 1px solid rgba(0,0,0,.5);
+  }
+  
+  article:last-child {
+    border-bottom: none;
+  }
+  
+  footer {
+    background: rgb(10%, 10%, 30%);
+    color: white;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  footer ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin: 0;
+    padding: 0 10px;
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid rgba(100%, 100%, 100%, .7);
+    line-height: 20px;
+  }
+  
+  footer li:last-child {
+    border: none;
+  }
+  

@@ -1,0 +1,46 @@
+.a{
+    color:red;
+}
+/* and */
+.a.b{ 
+color: green
+}
+
+    
+/* class b in class a (descendant) */
+.a .b{
+color: blue;
+}
+/* class b is a direct child of class a */
+.a>.b{
+    color:blueviolet
+    }
+/* class b that have same parent as class a and the class a element came first  */
+.a~.b{
+color:brown
+}
+ /* class b that have same parent as class a and the class a element came immediately before  */
+ 
+.a+.b{
+color:chocolate;
+}
+
+/* hes attribute class  */
+[class]{
+color:cyan;
+}
+
+[class="d"]{
+    color:darkblue
+}
+/* or */
+.a,.b{
+color: hotpink;
+}
+
+li.done{
+
+}
+div + p{
+    color:deeppink;
+}
