@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    background: white;
+  }
+  header{
+    width: 100%;
+    padding: 1px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+  }
+  header a{
+    color: white;
+  }
+  .start{
+    background-color: #efeeeb;
+    padding: 230px;
+    padding-top: 40px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    font-size: x-large;
+  }
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  button{
+    background: black;
+    color: white;
+    width: 180px;
+    height: 70px;
+    font-size: x-large;
+    border-radius: 5%;
+    font-weight: 520;
+    transition: all linear 250ms;
+  }
+  button:hover{
+    background: rgb(58, 58, 58);
+    border: #efeeeb solid 2px;
+  }
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+  }
+  .navigation a{
+  margin: 15px;
+  }
+  .login-Singin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login-Singin a {
+    margin-right: 30px ;
+  }
+  .container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .section1{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+  }
+  .section1 h1{
+    color: #292929;
+    font-size: 75px;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .section1 p{
+    color: #5a5444;
+    width: 95%;
+    font-size: larger;
+    margin-bottom: 0;
+  }
+  .section1 ul{
+    list-style: none;
+    color: #5a5444;
+    font-weight: bold;
+  }
+  .section1 ul>li{
+    margin-bottom: 4px;
+    padding-bottom: 5px;
+  }
+  .list-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .list-item::before{
+    content:url('src/Assets/Checkmark.svg');
+    margin-right:20px;
+  
+  }
+  
+  
+  .sing-seconde{
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  input{
+    border-radius: 5%;
+    font-size:large;
+    text-align: center;
+    width: 200px;
+  }
+  .img-container1{
+    margin-left: 250px ;
+  }
+  .img-container1 img{
+  width: 500px;
+  }
+  .container2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+  }
+  .corporatesLogos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin:  50px 0 50px 0  ;
+  }
+  .corporateImg{
+    max-width: 100%;
+  
+  }
+  .corporateImg img{
+    width: 150px;
+    height: auto;
+  }
+  .section2{
+    background: #efeeeb;
+    border-radius: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px 0 135px;
+  }
+  .detail2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .detail2 h2{
+    width: 60%;
+    font-size: 46px;
+  }
+  .detail2 p{
+    font-size: x-large;
+    color: #5a5444;
+    width: 93%;
+  }
+  .detail2 a{
+    font-size: x-large;
+    color: #5a5444;
+    font-weight: bold;
+  }
+  .img-container2{
+    margin: 0;
+    padding: 0;
+    width: 650px;
+  }
+  .container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 200px 50px 200px;
+  }
+  .img-container3 img{
+    width: 900px;
+  }
+  .detail3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 30PX;
+  }
+  .detail3 h2{
+    font-size: 46px;
+    margin: 0;
+  }
+  .detail3 p{
+    font-size: x-large;
+    color: #5a5444;
+    width: 93%;
+  }
+  .detail3 a{
+    font-size: x-large;
+    color: #5a5444;
+    font-weight: bold;
+  }
+  footer{
+    background: black;
+    color: white;
+    width: 100%;font-size: larger;
+  }
+  .footer-container{
+    padding: 5px 150px 30px 150px;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  .inFooter{
+    display: flex;
+    flex-direction: column;
+  }
+  .inFooter h3{
+    font-weight: bold;
+  }
+  .inFooter span,
+  .inFooter a{
+    color: #929392;
+    margin-bottom: 5px;
+  }
+  .inFooter a{
+    text-decoration: none;
+  }
+  .inFooter a:hover{
+    color: white;
+  }
+  .spense{
+    width: 23%;
+  }
+  .copyright{
+    width: 100%;
+    font-weight: bolder;
+    text-align: center;
+    font-size: larger;
+  
+  }
+  a{
+    transition: all linear 500ms;
+  }
+  a:hover{
+    color: #292929;
+    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.533);
+  }

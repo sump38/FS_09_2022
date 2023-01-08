@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-items: start | end | center | stretch;
+    background-color: bisque;
+  }
+  
+.item-1 {
+    background-color: red;
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    
+  }
+  .item-2 {
+    background-color: blueviolet;
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    
+  }
+
+  .item-3 {
+    background-color: yellow;
+    width: 100px;  /* Or whatever */
+    height: 100px; /* Or whatever */
+    
+  }

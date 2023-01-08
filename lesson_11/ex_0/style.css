@@ -1,0 +1,29 @@
+.in-img{
+    position: absolute;
+    
+    top: 25px; 
+    left: 25px;
+    background-color: aqua;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.in-img>*{
+    border-bottom: 1px solid rgb(65, 62, 62);
+    padding: 1em 0;
+    font-size: 0.8em;
+    height:20%;
+    width: 70%;
+    text-align: left;
+    padding:2% 0;
+}
+.in-img>*:last-child{
+    border-bottom: none;
+   
+}

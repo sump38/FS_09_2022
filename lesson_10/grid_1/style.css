@@ -1,0 +1,26 @@
+.grid-wrapper{
+    display: grid;
+    grid: 1fr 2fr 2fr 1.5fr /1fr 1fr 1fr ;
+    gap:5px;
+    grid-template-areas: 
+    "header header header "
+    "sidebar content-1 content-1"
+    "sidebar content-2 content-3"
+    "footer footer footer ";
+}
+.header{
+    grid-area: header;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.content-1{
+    grid-area: content-1;
+}
+.footer{
+    grid-area: footer;
+}
+.grid-wrapper>*{
+    background-color: aqua;
+    text-align: center;
+}

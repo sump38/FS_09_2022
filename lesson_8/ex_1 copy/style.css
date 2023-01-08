@@ -1,0 +1,23 @@
+.card{
+
+    width: 100px;
+    border: 3px solid black;
+    /* display:flex;
+    flex-wrap: wrap; */
+
+}
+
+img{
+    
+    width: calc(100% - 6px);
+    display: inline-block;
+    border-radius: 50%;
+    border: 3px solid pink;
+}
+
+h1{
+    font-size: 1em;
+    text-align: center;
+    /* flex-grow: 1; */
+
+}
