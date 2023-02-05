@@ -7,6 +7,7 @@ function  Counter(props) {
     <h2>{props.item}</h2>
       <h2>{props.number}</h2>
       <button onClick ={props.handler}> press to add one</button>
+      
     </div>
   );
 }
